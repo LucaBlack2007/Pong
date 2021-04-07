@@ -67,11 +67,11 @@ function draw() {
     fill("white");
     text("Score: " + score, 365, 15);
 
-    /*
+    
     ai.debug = true;
     player.debug = true;
     ball.debug = true;
-    */
+    
 
     if (player.isTouching(ball)) {
       console.log('collision!');
